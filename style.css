@@ -13,23 +13,43 @@ body {
     background-size: 1250px 700px;
     background-repeat: no-repeat;
     /*background-color:black;*/
-    background-color:#EFDF32;
+    background-color:#13664D;
 }
 
 #pageWrap{
 	position:relative;
 	width:1250px;
 	height:700px;
+	z-index: 100;
 }
 
+#logoFront{
+	position:absolute;
+	top:20px;
+	left: 20px;
+	z-index:10;
+}
+#logo{
+	width:350px;
+}
+
+#foulPole{
+	position:absolute;
+	top:0;
+	margin-left:1000px;
+	width:15px;
+	height:700px;
+	background-color:#EFDF32;
+	z-index:9;	
+}
 #sideBanner{
 	width:250px;
 	height:700px;
 	background-color:#13664D;
-	right:0;
+	margin-left:1015px;
 	top:0;
 	position:absolute;
-	z-index:10;
+	z-index:9;
 }
 
 #media{
@@ -39,7 +59,13 @@ body {
 	height: 700px;
 	margin-top:0;
 	margin-left:0;
+	z-index: 9;
+}
 
+#movie{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
 }
 
 #action{
@@ -60,7 +86,7 @@ body {
 	margin-top:0;
 	margin-left:0;
 	z-index:9;
-	background-color: rgba(255, 255, 255, 0.8);	
+	background-color: rgba(255, 255, 255, 0.9);	
 }
 
 #rights {
@@ -86,6 +112,7 @@ body {
   position: absolute;
   color:white;
 }
+
 #cred {
   font-family: 'Arvo', Georgia, Times, serif;
   font-size:9px;
