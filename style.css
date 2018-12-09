@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'atlas'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Regular.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'atlaslight'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Light.otf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'atlasmedium'; /*a name to be used later*/
+    src: url(./images/atlas/AtlasGrotesk-Medium.otf); /*URL to font*/
+}
+
+
+
 html, body {
     /*height: 100%;*/
 }
@@ -42,6 +59,7 @@ body {
 	background-color:#EFDF32;
 	z-index:9;	
 }
+
 #sideBanner{
 	width:250px;
 	height:700px;
@@ -50,6 +68,87 @@ body {
 	top:0;
 	position:absolute;
 	z-index:9;
+}
+
+#linkContainer{
+	margin-top:70px;
+}
+
+#submitLink{
+	position: static;
+	color:#EFDF32;
+	font-family:'atlasmedium';
+	font-size:20px;
+	margin-left:30px;
+}
+
+#submitLink:hover{
+	color:#E0D12F;
+	cursor: pointer;
+}
+
+#otherContainer{
+	margin-top:50px;
+}
+
+#processLink{
+	position: static;
+	display: inline-block;
+	color:white;
+	font-family:'atlaslight';
+	font-size:16px;
+	margin-left:30px;
+}
+
+#processLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#ponderLink{
+	position: static;
+	margin-top:20px;
+	color:white;
+	font-family:'atlaslight';
+	font-size:16px;
+	display: inline-block;
+	margin-left:30px;
+	margin-top:13px;
+}
+
+#ponderLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#readsLink{
+	position: static;
+	color:white;
+	font-family:'atlaslight';
+	font-size:16px;
+	display: inline-block;
+	margin-left:30px;
+	margin-top:13px;
+}
+
+#readsLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
+#contactLink{
+	position: static;
+	color:white;
+	font-family:'atlaslight';
+	font-size:16px;
+	display: inline-block;
+	margin-left:30px;
+	margin-top:13px;
+}
+
+#contactLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
 }
 
 #media{
