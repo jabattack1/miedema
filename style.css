@@ -162,7 +162,25 @@ body {
 	z-index: 9;
 }
 
-#movie{
+#moviea{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#movieb{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#moviec{
+	z-index:2;
+	width: 1000px; 
+	height: 700px;
+}
+
+#movied{
 	z-index:2;
 	width: 1000px; 
 	height: 700px;
