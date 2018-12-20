@@ -27,16 +27,16 @@ html {
 body {
     display: table-cell;
     vertical-align: middle;
-    background-size: 1250px 700px;
+    background-size: 1250px 3500px;
     background-repeat: no-repeat;
-    /*background-color:black;*/
-    background-color:#13664D;
+    background-color:white;
+    /*background-color:#13664D;*/
 }
 
 #pageWrap{
-	position:relative;
+	position:absolute;
 	width:1250px;
-	height:700px;
+	height:3500px;
 	z-index: 100;
 }
 
@@ -55,27 +55,32 @@ body {
 	top:0;
 	margin-left:1000px;
 	width:15px;
-	height:700px;
+	height:3500px;
 	background-color:#EFDF32;
 	z-index:9;	
 }
 
 #sideBanner{
-	width:250px;
-	height:700px;
-	background-color:#13664D;
-	margin-left:1015px;
-	top:0;
 	position:absolute;
+	width:250px;
+	height:3500px;
+	background-color:#13664D;
+	/*background-color:red;*/
+	margin-left:1015px;
+	margin-top:0;
 	z-index:9;
 }
 
 #linkContainer{
+	position:fixed;
 	margin-top:70px;
+	/*background-color:blue;*/
+	width:300px;
+	height:300px;
 }
 
 #submitLink{
-	position: static;
+	/*position: static;*/
 	color:#EFDF32;
 	font-family: 'futura';
 	font-size:20px;
@@ -92,7 +97,7 @@ body {
 }
 
 #processLink{
-	position: static;
+	/*position: static;*/
 	display: inline-block;
 	color:white;
 	font-family: 'futura';
@@ -107,7 +112,7 @@ body {
 }
 
 #ponderLink{
-	position: static;
+	/*position: static;*/
 	margin-top:20px;
 	color:white;
 	font-family: 'futura';
@@ -115,6 +120,7 @@ body {
 	display: inline-block;
 	margin-left:30px;
 	margin-top:15px;
+	text-decoration: none;
 }
 
 #ponderLink:hover{
@@ -123,13 +129,14 @@ body {
 }
 
 #readsLink{
-	position: static;
+	/*position: static;*/
 	color:white;
 	font-family: 'futura';
 	font-size:16px;
 	display: inline-block;
 	margin-left:30px;
 	margin-top:15px;
+	text-decoration: none;
 }
 
 #readsLink:hover{
@@ -138,13 +145,14 @@ body {
 }
 
 #contactLink{
-	position: static;
+	/*position: static;*/
 	color:white;
 	font-family: 'futura';
 	font-size:16px;
 	display: inline-block;
 	margin-left:30px;
 	margin-top:15px;
+	text-decoration: none;
 }
 
 #contactLink:hover{
@@ -243,12 +251,66 @@ body {
   width:160px;
 }
 
-#authenticationPrcoess{
+#authenticationProcess{
 	position:absolute;
-	margin-top:500px;
-	background-color:red;
+/*	width:200px;
+	height:500px;*/
+	margin-top:701px;
+	/*background-color:red;*/
 	z-index:100;
 }
+
+#authenticationTitle{
+	position:absolute;
+	margin-top:701px;
+	font-family: 'futura';
+}
+
+#ponder{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:1400px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#ponderTitle{
+	position:absolute;
+	margin-top:1401px;
+	font-family: 'futura';
+}
+
+#reads{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:2100px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#readsTitle{
+	position:absolute;
+	margin-top:2101px;
+	font-family: 'futura';
+}
+
+#contact{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:2800px;
+	/*background-color:red;*/
+	z-index:100;
+}
+
+#contactTitle{
+	position:absolute;
+	margin-top:2801px;
+	font-family: 'futura';
+}
+
 
 .loader {
   position: fixed;
