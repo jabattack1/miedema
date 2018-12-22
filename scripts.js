@@ -4,10 +4,10 @@
 //     }, 2000);
 // });
 
-var movie1= "<img id='moviea' src='./images/1.gif' title='source: imgur.com' id='action' />"
-var movie2= "<img id='movieb' src='./images/2.gif' title='source: imgur.com' id='action' />"
-var movie3= "<img id='moviec' src='./images/3.gif' title='source: imgur.com' id='action' />"
-var movie4= "<img id='movied' src='./images/4.gif' title='source: imgur.com' id='action' />"
+var movie1= "<img id='moviea' src='https://imgur.com/uLezNcX.gif' title='source: imgur.com' id='action' />"
+var movie2= "<img id='movieb' src='https://imgur.com/I3mBEQM.gif' title='source: imgur.com' id='action' />"
+var movie3= "<img id='moviec' src='https://imgur.com/8ObB1O1.gif' title='source: imgur.com' id='action' />"
+var movie4= "<img id='movied' src='https://imgur.com/ylAuB8g.gif' title='source: imgur.com' id='action' />"
 
 
 
