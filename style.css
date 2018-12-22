@@ -85,6 +85,7 @@ body {
 	font-family: 'futura';
 	font-size:20px;
 	margin-left:30px;
+	width:200px;
 }
 
 #submitLink:hover{
@@ -104,6 +105,7 @@ body {
 	font-size:16px;
 	margin-left:30px;
 	text-decoration: none;
+	width:200px;
 }
 
 #processLink:hover{
@@ -121,6 +123,7 @@ body {
 	margin-left:30px;
 	margin-top:15px;
 	text-decoration: none;
+	width:200px;
 }
 
 #ponderLink:hover{
@@ -137,6 +140,7 @@ body {
 	margin-left:30px;
 	margin-top:15px;
 	text-decoration: none;
+	width:200px;
 }
 
 #readsLink:hover{
@@ -153,6 +157,7 @@ body {
 	margin-left:30px;
 	margin-top:15px;
 	text-decoration: none;
+	width:200px;
 }
 
 #contactLink:hover{
@@ -242,7 +247,7 @@ body {
 #cred {
   font-family: 'Arvo', Georgia, Times, serif;
   font-size:9px;
-  /*width:170px;*/
+  /*width:200px;*/
   margin-top: 0px;
   margin-left: 880px;
   /*padding: 5px;*/
