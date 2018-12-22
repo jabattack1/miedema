@@ -97,6 +97,22 @@ body {
 	margin-top:50px;
 }
 
+#homeLink{
+	/*position: static;*/
+	display: inline-block;
+	color:white;
+	font-family: 'futura';
+	font-size:16px;
+	margin-left:30px;
+	text-decoration: none;
+	width:200px;
+}
+
+#homeLink:hover{
+	color:#EFEFEF;
+	cursor: pointer;
+}
+
 #processLink{
 	/*position: static;*/
 	display: inline-block;
@@ -104,6 +120,7 @@ body {
 	font-family: 'futura';
 	font-size:16px;
 	margin-left:30px;
+	margin-top:15px;
 	text-decoration: none;
 	width:200px;
 }
@@ -254,6 +271,15 @@ body {
   position: absolute;
   color:white; 
   width:160px;
+}
+
+#home{
+	position:absolute;
+/*	width:200px;
+	height:500px;*/
+	margin-top:0px;
+	/*background-color:red;*/
+	z-index:100;
 }
 
 #authenticationProcess{
