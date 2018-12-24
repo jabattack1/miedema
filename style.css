@@ -42,13 +42,27 @@ body {
 
 #logoFront{
 	position:absolute;
-	top:20px;
+	width:1000px;
+	height:63px;
+	top:10px;
 	left: 20px;
 	z-index:10;
 }
+
 #logo{
+	position:absolute;
 	width:350px;
 }
+
+#slang{
+	position:absolute;
+	font-family: 'futura';
+	font-size:15px;
+	color:black;
+	margin-left:370px;
+	margin-top:60px;
+}
+
 
 #foulPole{
 	position:absolute;
@@ -73,7 +87,7 @@ body {
 
 #linkContainer{
 	position:fixed;
-	margin-top:70px;
+	margin-top:65px;
 	/*background-color:blue;*/
 	width:300px;
 	height:300px;
@@ -95,6 +109,19 @@ body {
 
 #otherContainer{
 	margin-top:50px;
+}
+
+#paymentMethod{
+	/*position:absolute;*/
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-left:30px;
+	margin-top:270px;
+}
+
+#paymentLogo{
+	width:170px;
 }
 
 #homeLink{
@@ -182,14 +209,24 @@ body {
 	cursor: pointer;
 }
 
+#topCover{
+	position:absolute;
+	background-color:white;
+	width:1000px;
+	height:63px;
+	margin-top:0;
+	margin-left:0;
+	z-index: 9;
+}
+
 #media{
 	position:absolute;
 	background-color:white;
 	width: 1000px; 
 	height: 700px;
-	margin-top:0;
+	margin-top:35px;
 	margin-left:0;
-	z-index: 9;
+	z-index: 1;
 }
 
 #moviea{
