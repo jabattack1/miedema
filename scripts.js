@@ -4,7 +4,7 @@
 //     }, 2000);
 // });
 
-var movie1= "<img id='moviea' src='https://i.imgur.com/uLezNcX.gif' />"
+var movie1= "<img id='moviea' src='https://i.imgur.com/LIaEGuk.gif' />"
 // var movie2= "<img id='movieb' src='https://media.giphy.com/media/5nmNO5Fn9mTVkoBm8F/giphy.gif' />"
 // var movie3= "<img id='moviec' src='https://media.giphy.com/media/9DvczI5xVK8pVsce5B/giphy.gif' />"
 // var movie4= "<img id='movied' src='https://media.giphy.com/media/YlyOEhIGKvjXwh76bB/giphy.gif' />"
