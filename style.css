@@ -282,7 +282,7 @@ body {
 }
 
 #rights {
-	position:absolute;
+	position:fixed;
   font-family: 'futura';
   color: #000000;
   display: block;
