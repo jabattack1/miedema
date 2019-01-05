@@ -39,8 +39,6 @@ body {
 	margin-left:auto;
     margin-right:auto;
     /*float: left;*/
-    min-height: calc(100vh - 105px);
-    height: calc(100vh - 105px);
 }
 
 #logoFront{
