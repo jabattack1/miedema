@@ -76,8 +76,8 @@ body {
 #foulPole{
 	position:absolute;
 	top:0;
-	margin-left:-15px;
-	width:15px;
+	margin-left:-17px;
+	width:17px;
 	height:3500px;
 	background-color:#EFDF32;
 	z-index:9;	
@@ -294,7 +294,7 @@ body {
   margin-right: auto;*/
   height: 15px; 
   width: 230px;
-  margin-left:20px;
+  margin-left:10px;
   bottom:80;
 }
 
