@@ -65,7 +65,7 @@ body {
 
 #slang{
 	position:absolute;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:15px;
 	color:black;
 	margin-left:410px;
@@ -105,9 +105,9 @@ body {
 #submitLink{
 	/*position: fixed;*/
 	color:#EFDF32;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:20px;
-	margin-left:30px;
+	margin-left:20px;
 	width:200px;
 }
 
@@ -139,11 +139,11 @@ body {
 	/*position: static;*/
 	display: inline-block;
 	color:white;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:16px;
-	margin-left:30px;
+	margin-left:20px;
 	text-decoration: none;
-	width:200px;
+	width:220px;
 }
 
 #homeLink:hover{
@@ -155,12 +155,12 @@ body {
 	/*position: static;*/
 	display: inline-block;
 	color:white;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:16px;
-	margin-left:30px;
+	margin-left:20px;
 	margin-top:15px;
 	text-decoration: none;
-	width:200px;
+	width:220px;
 }
 
 #processLink:hover{
@@ -172,13 +172,13 @@ body {
 	/*position: static;*/
 	margin-top:20px;
 	color:white;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:16px;
 	display: inline-block;
-	margin-left:30px;
+	margin-left:20px;
 	margin-top:15px;
 	text-decoration: none;
-	width:200px;
+	width:220px;
 }
 
 #ponderLink:hover{
@@ -189,13 +189,13 @@ body {
 #readsLink{
 	/*position: static;*/
 	color:white;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:16px;
 	display: inline-block;
-	margin-left:30px;
+	margin-left:20px;
 	margin-top:15px;
 	text-decoration: none;
-	width:200px;
+	width:220px;
 }
 
 #readsLink:hover{
@@ -206,13 +206,13 @@ body {
 #contactLink{
 	/*position: static;*/
 	color:white;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 	font-size:16px;
 	display: inline-block;
-	margin-left:30px;
+	margin-left:20px;
 	margin-top:15px;
 	text-decoration: none;
-	width:200px;
+	width:220px;
 }
 
 #contactLink:hover{
@@ -287,7 +287,7 @@ body {
 
 #rights {
 	position:absolute;
-  font-family: 'futura';
+  font-family: Verdana, Geneva, sans-serif; ;
   color: #000000;
   display: block;
 /*  margin-left: auto;
@@ -299,7 +299,7 @@ body {
 }
 
 #copyright {
-  font-family: 'futura';
+  font-family: Verdana, Geneva, sans-serif; ;
   margin-top: 0px;
   font-size: 9px;
   /*width:200px;*/
@@ -310,7 +310,7 @@ body {
 }
 
 #cred {
-  font-family: 'futura';
+  font-family: Verdana, Geneva, sans-serif; ;
   font-size:9px;
   /*width:200px;*/
   margin-top: 0px;
@@ -342,7 +342,7 @@ body {
 #authenticationTitle{
 	position:absolute;
 	margin-top:701px;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 }
 
 #ponder{
@@ -357,7 +357,7 @@ body {
 #ponderTitle{
 	position:absolute;
 	margin-top:1401px;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 }
 
 #reads{
@@ -372,7 +372,7 @@ body {
 #readsTitle{
 	position:absolute;
 	margin-top:2101px;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 }
 
 #contact{
@@ -387,7 +387,7 @@ body {
 #contactTitle{
 	position:absolute;
 	margin-top:2801px;
-	font-family: 'futura';
+	font-family: Verdana, Geneva, sans-serif; ;
 }
 
 
