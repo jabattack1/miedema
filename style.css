@@ -20,7 +20,7 @@ html, body {
 }
 
 html {
-    /*display: table;*/
+    display: table;
     margin: auto;
 }
 
@@ -34,11 +34,8 @@ body {
 }
 
 #page_wrap{
-	/*position:absolute;*/
 	width:1250px;
-	/*height:3500px;*/
-	/*z-index: 100;*/
-	margin: 0 auto;
+	margin: auto;
 }
 
 #logoFront{
@@ -46,13 +43,14 @@ body {
 	width:1000px;
 	height:63px;
 	top:10px;
-	left: 20px;
+	margin-left: 0px;
 	z-index:10;
 }
 
 #logo{
 	position:absolute;
 	width:350px;
+	margin-left:20px;
 }
 
 #jerseyBanner{
@@ -121,8 +119,8 @@ body {
 
 #paymentMethod{
 	/*position:absolute;*/
-	margin-left: auto;
-	margin-right: auto;
+/*	margin-left: auto;
+	margin-right: auto;*/
 	display: block;
 	margin-left:40px;
 	margin-top:230px;
@@ -223,7 +221,7 @@ body {
 	width:1000px;
 	height:66px;
 	margin-top:0;
-	margin-left:0;
+	margin-left:-1px;
 	z-index: 9;
 }
 
@@ -233,11 +231,11 @@ body {
 	width: 1000px; 
 	height: 700px;
 	margin-top:35px;
-	margin-left:0;
+	margin-left:0px;
 	z-index: 1;
 }
 
-#moviea{
+/*#moviea{
 	z-index:2;
 	width: 1000px; 
 	height: 700px;
@@ -259,7 +257,7 @@ body {
 	z-index:2;
 	width: 1000px; 
 	height: 700px;
-}
+}*/
 
 #action{
 	position:absolute;
@@ -388,7 +386,7 @@ body {
 }
 
 
-.loader {
+/*.loader {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -396,7 +394,7 @@ body {
   height: 100%;
   z-index: 9999;
   background: url('https://imgur.com/vhosrbn.png') 50% 50% no-repeat #13664D;
-}
+}*/
 
 
 
