@@ -30,12 +30,17 @@ body {
     background-size: 1250px 3500px;
     background-repeat: no-repeat;
     background-color:white;
+    min-width:100%;
     /*background-color:#13664D;*/
 }
 
 #page_wrap{
 	width:1250px;
-	margin: auto;
+	margin-left:auto;
+    margin-right:auto;
+    /*float: left;*/
+    min-height: calc(100vh - 105px);
+    height: calc(100vh - 105px);
 }
 
 #logoFront{
@@ -73,7 +78,7 @@ body {
 #foulPole{
 	position:absolute;
 	top:0;
-	margin-left:1000px;
+	margin-left:-15px;
 	width:15px;
 	height:3500px;
 	background-color:#EFDF32;
@@ -81,9 +86,9 @@ body {
 }
 
 #sideBanner{
-	position:absolute;
+	position:fixed;
 	width:250px;
-	height:3500px;
+	height:100vh;
 	background-color:#13664D;
 	/*background-color:red;*/
 	margin-left:1015px;
@@ -100,7 +105,7 @@ body {
 }
 
 #submitLink{
-	/*position: static;*/
+	/*position: fixed;*/
 	color:#EFDF32;
 	font-family: 'futura';
 	font-size:20px;
@@ -114,6 +119,8 @@ body {
 }
 
 #otherContainer{
+	/*position:absolute;*/
+	width:250px;
 	margin-top:50px;
 }
 
