@@ -60,7 +60,7 @@ body {
 	position: absolute;
 	width:500px;
 	height:60px;
-	margin-left:410px;
+	margin-left:430px;
 }
 
 #slang{
@@ -329,6 +329,22 @@ body {
 	/*background-color:red;*/
 	z-index:100;
 }
+#authenticationBlock{
+	position:absolute;
+	margin-top:667px;
+	z-index:9;
+	margin-left:-1px;
+	width:1000px;
+	height:68px;
+	background-color: white;
+}
+
+#authenticationTitle{
+	z-index:10;
+	position:absolute;
+	margin-top:701px;
+	font-family: Verdana, Geneva, sans-serif; ;
+}
 
 #authenticationProcess{
 	position:absolute;
@@ -339,10 +355,13 @@ body {
 	z-index:100;
 }
 
-#authenticationTitle{
-	position:absolute;
-	margin-top:701px;
+#authenticationContent{
 	font-family: Verdana, Geneva, sans-serif; ;
+	position:absolute;
+	margin-top:721px;
+	height:680px;
+	width:1000px;
+	overflow:scroll;
 }
 
 #ponder{
