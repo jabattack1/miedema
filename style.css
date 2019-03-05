@@ -41,6 +41,66 @@ body {
     /*float: left;*/
 }
 
+#order{
+ 	position: fixed;
+  	left: 0px;
+  	top: 0px;
+  	width: 100%;
+  	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+#orderContainer{
+	display: table;
+  	margin: 0 auto;
+  	width:50%;
+ 	/*position: fixed;*/
+/*  	left: 0px;
+  	top: 0px;*/
+  	/*width: 75%*/
+  	height: 100%;
+	/*background-color: red;*/
+    z-index: 10000;
+    text-align:center
+}
+
+#orderHead{
+	margin-top:20px;
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+#sportSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:15px;
+}
+
+#itemSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:40px;
+}
+
+#paymentSelector{
+	color:white;
+	font-family: Verdana, Geneva, sans-serif;
+	margin-top:40px;
+}
+
+
+
+#closeOrder{
+	float:right;
+	cursor: pointer;
+}
+
+#closeOrder:hover{
+	text-decoration: none;
+	opacity:0.7;
+}
+
 #logoFront{
 	position:absolute;
 	width:1000px;
@@ -65,7 +125,7 @@ body {
 
 #slang{
 	position:absolute;
-	font-family: Verdana, Geneva, sans-serif; ;
+	font-family: Verdana, Geneva, sans-serif; 
 	font-size:15px;
 	color:black;
 	margin-left:410px;
@@ -409,6 +469,116 @@ body {
 	font-family: Verdana, Geneva, sans-serif; ;
 }
 
+
+input[type=text] {
+  width: 400px;
+  height:35px;
+  padding: 12px 20px;
+  margin: 7px 0;
+  box-sizing: border-box;
+  font-size:15px;
+}
+
+#sport{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+}
+
+#type{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+	margin-top:0px;
+}
+
+#paymentOptions{
+	position:absolute;
+	font-family: Verdana, Geneva, sans-serif;
+	color:white;
+	margin-left:110px;
+	margin-top:15px;
+}
+
+#firstNameInput{
+	margin-top: 8px;
+}
+
+#baseballRadio{
+	margin-left:20px;
+}
+
+#footballRadio{
+	margin-left:20px;
+}
+
+#basketballRadio{
+	margin-left:20px;
+}
+
+#jerseyRadio{
+	margin-left:20px;
+}
+
+#hatRadio{
+	margin-left:20px;
+}
+
+#pantsRadio{
+	margin-left:20px;
+}
+
+#paypalRadio{
+	margin-left:20px;
+}
+
+#checksRadio{
+	margin-left:20px;
+}
+
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+	background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+	background-color:#007dc1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:13px;
+	padding:6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+	width:390px;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+	background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
 
 /*.loader {
   position: fixed;
